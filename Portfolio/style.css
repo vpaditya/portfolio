@@ -1,0 +1,246 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    border: 2px solid yellow;
+}
+#page>img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+}
+#page>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+}
+#centre-nav{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+#centre-nav>a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+nav>input{
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    text-transform: uppercase;
+}
+#text{
+    padding: 30px 50px;
+    position: relative;
+    top: 18%;
+    left: 8%;
+    height: 75%;
+    width: 35%;
+    scale: 1.1;
+}
+#text>h1{
+    font-size: 50px;
+    line-height: 1;
+    margin-top: 20px;
+    color: black;
+}
+#text>h3{
+    margin-top: 10%;
+    color: #2b2b2b;
+    font-size: 22px;
+    font-weight: 100;
+}
+#text>h4{
+    color: burlywood;
+    position: absolute;
+    left: 10%;
+}
+#buttons{
+    position: absolute;
+    left: 7%;
+    bottom: 15%;
+    height: 15%;
+    width: 100%;
+}
+#buttons>button{
+    padding: 10px 22px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+}
+#buttons>button>a{
+    font-size: 20px;
+    color: wheat;
+}
+#buttons>#b2{
+    margin-left: 20px;
+    background-color: black;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: paleturquoise;
+    border: 2px solid red;
+}
+#text1{
+    padding-left:50px ;
+    padding-top: 50px;
+    height: 30%;
+    position: absolute;
+    z-index: 9;
+}
+#text1>h1{
+    font-size: 60px;
+}
+#text1>h4{
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+}
+.row{
+    padding-top: 250px;
+}
+.col-sm{
+    width: 5rem; 
+    height: 5rem;
+}
+.box2{
+    display: flex;
+}
+#page2{
+    position: relative;
+    height: 80vh;
+    width: 80vw;
+    background-color: #fff;
+}
+#project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+}
+.projects{
+    border-top: 2px solid #000;
+    height: 100%;
+    width: 31%;
+}
+#text3{
+    display: flex;
+    align-items: center;
+    padding: 0px 2px;
+    height: 30%;
+    width: 100%;
+}
+#image{
+    height: 70%;
+    width: 100%;
+    padding: 0px 2px;
+}
+#image>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.p1 img{
+    height: 200px;
+    width: 300px;
+}
+.p2{
+    position: relative;
+}
+.p3{
+    position: relative;
+}
+#text4{
+    padding-left:50px ;
+    padding-top: 50px;
+    height: 30%;
+    position: absolute;
+    z-index: 9;
+}
+#text4>h1{
+    margin-top: 20px;
+    font-size: 50px;
+}
+#text4>h4{
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+}
+.end{
+    background-color: #bab0ee;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.Contact-Me p{
+    font-size: 40px;
+}
+.Contact-Me h2{
+    font-size: 50px;
+}
+.Contact-Me{
+    width: 100%;
+    height: 200px;
+    font-weight: bold;
+    position: relative;
+}
+.copyright{
+    color: white;
+    font-size: 1.2rem;
+    padding: 8px 0 8px 0;
+}
+.btn{
+    padding: 7px 7px;
+}
+.btn>img{
+    border-radius: 50%;
+    position: relative;
+    bottom: 40px;
+}
+.profile-text{
+    font-size: 1.3rem;
+}
+.profile-div{
+    padding: 0 18%;
+    text-align: center;
+    align-items: center;
+}
+.nav-item > a{
+    color: #3e3e3e !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 7px 20px;
+    text-transform: uppercase;
+}
+.header_section{
+    background-color: brown;
+}
